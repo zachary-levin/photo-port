@@ -5,7 +5,7 @@ import Nav from '..';
 
 afterEach(cleanup);
 
-describe('Nav component', () => {
+describe('Nav component renders', () => {
     // baseline test
     it('renders', () => {
         render(<Nav />);
